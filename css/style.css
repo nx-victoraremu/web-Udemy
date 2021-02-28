@@ -1,6 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
 }
 
 .countdown {
@@ -9,13 +15,16 @@
     color: #593d00;
     text-align: center;
     padding: 15px;
-    font-family: poppins, 'consolas';
 }
 
+nav{
+    background: #ececec;
+    height:75px;
+}
 .nav-bar {}
 
 .udemy img {
-    width: 120px;
+    width: 150px;
     height: auto;
     padding: 15px;
     float: left;
