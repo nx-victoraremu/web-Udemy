@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: poppins;
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
 }
 
 .countdown {
@@ -35,7 +35,7 @@ nav ul li {
 }
 nav ul li a{
     color: #593d00;
-    font-size: 13px;
+    font-size: 14px;
 
 }
 nav ul li a:hover, nav ul li a:active{
@@ -57,9 +57,10 @@ nav ul li a:hover, nav ul li a:active{
 .udemy img {
   width: 140px;
   height: auto;
-  padding: 15px;
+  padding: 15px 10px;
   float: left;
   margin-top: 7px;
+  margin-left: 15px;
 }
 .search-box{
     line-height: 50px;
@@ -73,7 +74,7 @@ nav ul li a:hover, nav ul li a:active{
     border: none;
     background: none;
     outline: none;
-    width: 550px;
+    width: 620px;
     padding:0px 15px;
     border: none;
     background: #fbfbf8;
@@ -86,5 +87,24 @@ nav ul li a:hover, nav ul li a:active{
     border-radius: 5px;
     outline: none;
     border: 1px solid #0f7c90;
-    color: #593d00;
+    color: #0f7c90;
+}
+.log:hover{
+    color:#0c5663;
+    border: 1px solid #0c5663;
+
+}
+.sign{
+    background: #0f7c90;
+    padding: 12px 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #0f7c90;
+    color: white;
+}
+.sign:hover{
+    color:white;
+    border: 1px solid #0c5663;
+    background: #0c5663;
 }
