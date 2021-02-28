@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.countdown{
+
+.countdown {
     width: 100vw;
     background-color: #ffe799;
     color: #593d00;
@@ -10,10 +11,10 @@
     padding: 15px;
     font-family: poppins, 'consolas';
 }
-.nav-bar{
-    
-}
-.udemy img{
+
+.nav-bar {}
+
+.udemy img {
     width: 120px;
     height: auto;
     padding: 15px;
