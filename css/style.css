@@ -45,15 +45,8 @@ nav ul li a:active {
   transition: 0.4s;
 }
 .nav-bar {
-  position: relative;
+  position: sticky;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-.nav-bar::before,
-.nav-bar::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
 .udemy img {
@@ -72,7 +65,6 @@ nav ul li a:active {
   padding: 0px 15px;
 }
 .search-txt {
-  border: none;
   background: none;
   outline: none;
   width: 620px;
@@ -83,12 +75,14 @@ nav ul li a:active {
 }
 
 .log {
-  padding: 12px 30px;
+  background: #ffffff;
+  padding: 10px 20px;
   font-size: 15px;
   border-radius: 5px;
   outline: none;
   border: 1px solid #0f7c90;
   color: #0f7c90;
+  width: 100px;
 }
 .log:hover {
   color: #0c5663;
@@ -96,15 +90,104 @@ nav ul li a:active {
 }
 .sign {
   background: #0f7c90;
-  padding: 12px 30px;
+  padding: 10px 20px;
   font-size: 15px;
   border-radius: 5px;
   outline: none;
   border: 1px solid #0f7c90;
   color: white;
+  width: 100px;
 }
 .sign:hover {
   color: white;
   border: 1px solid #0c5663;
   background: #0c5663;
+}
+
+/* Top Css for header and navigation */
+/* -------------------------------------------------------------------------------------------------- */
+/* Container Css below */
+.container {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+.cover-page {
+  width: 88%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  border: none;
+  outline: none;
+  align-items: center;
+}
+
+.cover-page img {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.info {
+  width: 450px;
+  height: 280px;
+  background-color: #fbfbf8;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 27%;
+  left: 10%;
+}
+
+.info > h1 {
+  font-size: 38px;
+  padding: 15px 15px 0px 20px;
+  color: rgb(49, 45, 45);
+}
+
+.study {
+  font-size: 20px;
+  padding: 5px 15px 5px 20px;
+  color: rgb(49, 45, 45);
+}
+.searchbtn {
+  padding: 15px 20px 15px 20px;
+  border: 1px solid #c0c0c0;
+  width: 380px;
+  height: fit-content;
+  line-height: 8px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.searchbtn > input {
+  width: 300px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0px 8px;
+}
+/* done with banner section */
+/* --------------------------------------------------------------------------------------------------- */
+.access {
+  width: 100%;
+}
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 90px;
+  align-items: center;
+}
+.list > li {
+  padding: 1em;
+  margin: 20px auto;
+}
+.section {
+  width: 88%;
+  height: auto;
+  margin: auto;
+  justify-content: center;
+  border: none;
+  outline: none;
+  align-items: center;
 }
