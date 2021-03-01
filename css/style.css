@@ -9,10 +9,13 @@ body {
   font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
     Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
     segoe ui symbol;
+  display: grid;
+  overflow-y: auto;
+
 }
 
 .countdown {
-  width: 100vw;
+  width: 100%;
   background-color: #ffe799;
   color: #593d00;
   text-align: center;
@@ -22,7 +25,7 @@ body {
 nav {
   background: white;
   height: 75px;
-  width: 100vw;
+  width: 100%;
 }
 nav ul {
   float: right;
@@ -33,7 +36,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   line-height: 75px;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 nav ul li a {
   color: #593d00;
@@ -43,19 +46,26 @@ nav ul li a:hover,
 nav ul li a:active {
   color: #0f7c90;
   transition: 0.4s;
+  cursor: pointer;
 }
-.nav-bar {
+#big-container{
+  z-index: 5;
+  position: relative;
+
+}
+#big-container .nav-bar {
   position: sticky;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  top: 0;
 }
 
 .udemy img {
   width: 140px;
   height: auto;
-  padding: 15px 10px;
+  padding: 15px 5px;
   float: left;
   margin-top: 7px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .search-box {
   line-height: 50px;
@@ -67,11 +77,11 @@ nav ul li a:active {
 .search-txt {
   background: none;
   outline: none;
-  width: 620px;
-  padding: 0px 15px;
+  width: 640px;
+  padding: 10px 10px;
   border: none;
   background: #fbfbf8;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .log {
@@ -108,18 +118,19 @@ nav ul li a:active {
 /* -------------------------------------------------------------------------------------------------- */
 /* Container Css below */
 .container {
-  width: 100vw;
+  width: 98vw;
   align-items: center;
   justify-content: center;
 }
 .cover-page {
-  width: 88%;
+  width: 86%;
   height: auto;
   margin: auto;
   justify-content: center;
   border: none;
   outline: none;
   align-items: center;
+  position: relative;
 }
 
 .cover-page img {
@@ -131,12 +142,11 @@ nav ul li a:active {
   width: 450px;
   height: 280px;
   background-color: #fbfbf8;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
   flex-direction: column;
-  display: flex;
   position: absolute;
-  top: 27%;
-  left: 10%;
+  top: 12%;
+  left: 5%;
 }
 
 .info > h1 {
@@ -190,9 +200,63 @@ nav ul li a:active {
   outline: none;
   align-items: center;
   display: grid;
+  margin-top: 15px
+
 }
 
-.section > p{
-  padding: 10px 10px 0px 10px ;
-  font-size: 18px;
+.section > p {
+  padding: 10px 10px 0px 10px;
+  color: #201e1e;
+}
+#course{
+  font-size: 24px;
+}
+.One1 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.One1 ul li {
+  display: inline-block;
+  padding: 15px 25px 10px 10px;
+  margin-left: 0px;
+  color: #1f1a1a;
+}
+
+.One1 ul li:hover,
+One1 ul li:active {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  cursor: pointer;
+}
+.Two2{
+  margin-top: 15px;
+ display:grid;
+  cursor: pointer;
+  background: #fff7f0;
+  color: qblack;
+  gap: 1em;
+  border:1px solid red;
+  grid-template-columns: 1fr 1fr ;
+
+}
+.infos{
+  border: 1px solid blue;
+  display: grid;
+  
+}
+.woman{
+  display: grid;
+  border:1px solid green;
+  justify-items: end;
+
+}
+.woman img{
+  border-radius: 50%;
+}
+#line{
+  border-style: none;
+  border: 0.1px solid #969696;
 }
