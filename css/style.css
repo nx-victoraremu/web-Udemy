@@ -11,7 +11,6 @@ body {
     segoe ui symbol;
   display: grid;
   overflow-y: auto;
-
 }
 
 .countdown {
@@ -48,10 +47,9 @@ nav ul li a:active {
   transition: 0.4s;
   cursor: pointer;
 }
-#big-container{
+#big-container {
   z-index: 5;
   position: relative;
-
 }
 #big-container .nav-bar {
   position: sticky;
@@ -200,15 +198,14 @@ nav ul li a:active {
   outline: none;
   align-items: center;
   display: grid;
-  margin-top: 15px
-
+  margin-top: 15px;
 }
 
 .section > p {
   padding: 10px 10px 0px 10px;
   color: #201e1e;
 }
-#course{
+#course {
   font-size: 24px;
 }
 .One1 {
@@ -219,8 +216,7 @@ nav ul li a:active {
 }
 .One1 ul li {
   display: inline-block;
-  padding: 15px 25px 10px 10px;
-  margin-left: 0px;
+  padding: 15px 25px 15px 10px;
   color: #1f1a1a;
   font-weight: 600;
 }
@@ -228,39 +224,86 @@ nav ul li a:active {
 .One1 ul li:hover,
 One1 ul li:active {
   display: inline-block;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   font-weight: 700;
   cursor: pointer;
 }
-.Two2{
+.Two2 {
+  position: relative;
   margin-top: 15px;
- display:grid;
+  display: grid;
+  height: 220px;
   cursor: pointer;
   background: #fff7f0;
   color: qblack;
   gap: 1em;
-  border:1px solid red;
-  grid-template-columns: 1fr 1fr ;
-
+  grid-template-columns: 2fr 1fr;
 }
-.infos{
-  border: 1px solid blue;
-  display: grid;
-  padding: 25px 0px 25px 30px;
-  
+.infos {
+  padding: 10px;
+  margin: 35px 0px 10px 35px;
+  align-items: center;
+  width: 700px;
 }
-.woman{
+.infos > h3 {
+  padding: 5px;
+  font-size: 16px;
+}
+#simp {
+  padding: 5px;
+  font-size: 16px;
+}
+.woman {
   display: grid;
-  border:1px solid green;
   justify-items: end;
-  margin: 10px 20px 10px 0px;
-
-
+  align-items: center;
 }
-.woman img{
+.woman img {
   border-radius: 50%;
+  margin-right: 50px;
+  aspect-ratio: auto 183 / 183;
+  width: 183px;
 }
-.line{
+.line {
   border-style: none;
-  border: 0.1px solid #969696;
+  border: 0.1px solid #c0c0c0;
+}
+
+.vids {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  border: 1px solid red;
+}
+.imgs {
+  border: 1px solid blue;
+}
+.vids .imgs img {
+  border: 1px solid green;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+.reviews {
+  color: #eb8a2f;
+}
+.name {
+  font-size: 14px;
+}
+.title {
+  font-size: 15px;
+}
+.pri {
+  font-size: 13px;
+  padding-top: 2px;
+}
+.seller{
+  background-color: #ffe799;
+  color: #593d00;
+  outline: none;
+  border: none;
+  margin: 5px 0px;
+  padding: 3px;
+  border-radius: 3px;
 }
