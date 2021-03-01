@@ -278,7 +278,9 @@ One1 ul li:active {
 }
 .imgs {
   border: 1px solid blue;
+  cursor: pointer;
 }
+
 .vids .imgs img {
   border: 1px solid green;
   width: auto;
@@ -290,13 +292,16 @@ One1 ul li:active {
 }
 .name {
   font-size: 14px;
+  color: #593d00;
 }
 .title {
   font-size: 15px;
+  color: #593d00;
 }
 .pri {
   font-size: 13px;
   padding-top: 2px;
+  color: #593d00;
 }
 .seller{
   background-color: #ffe799;
@@ -306,4 +311,15 @@ One1 ul li:active {
   margin: 5px 0px;
   padding: 3px;
   border-radius: 3px;
+  cursor: pointer;
+}
+.hot{
+  background-color:#f99;
+  color: #593d00;
+  outline: none;
+  border: none;
+  margin: 5px 0px;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
 }
