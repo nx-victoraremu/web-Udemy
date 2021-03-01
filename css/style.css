@@ -186,8 +186,13 @@ nav ul li a:active {
   width: 88%;
   height: auto;
   margin: auto;
-  justify-content: center;
   border: none;
   outline: none;
   align-items: center;
+  display: grid;
+}
+
+.section > p{
+  padding: 10px 10px 0px 10px ;
+  font-size: 18px;
 }
