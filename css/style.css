@@ -222,6 +222,7 @@ nav ul li a:active {
   padding: 15px 25px 10px 10px;
   margin-left: 0px;
   color: #1f1a1a;
+  font-weight: 600;
 }
 
 .One1 ul li:hover,
@@ -245,18 +246,21 @@ One1 ul li:active {
 .infos{
   border: 1px solid blue;
   display: grid;
+  padding: 25px 0px 25px 30px;
   
 }
 .woman{
   display: grid;
   border:1px solid green;
   justify-items: end;
+  margin: 10px 20px 10px 0px;
+
 
 }
 .woman img{
   border-radius: 50%;
 }
-#line{
+.line{
   border-style: none;
   border: 0.1px solid #969696;
 }
