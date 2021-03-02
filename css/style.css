@@ -19,6 +19,7 @@ body {
   color: #593d00;
   text-align: center;
   padding: 15px;
+
 }
 
 nav {
@@ -116,7 +117,7 @@ nav ul li a:active {
 /* -------------------------------------------------------------------------------------------------- */
 /* Container Css below */
 .container {
-  width: 98vw;
+  width: 98.8vw;
   align-items: center;
   justify-content: center;
 }
@@ -191,7 +192,7 @@ nav ul li a:active {
   margin: 20px auto;
 }
 .section {
-  width: 88%;
+  width: 90%;
   height: auto;
   margin: auto;
   border: none;
@@ -244,13 +245,24 @@ One1 ul li:active {
   margin: 35px 0px 10px 35px;
   align-items: center;
   width: 700px;
+  color: #1f1a1a;
 }
 .infos > h3 {
   padding: 5px;
   font-size: 16px;
+  color: #3c3b37;
+}
+#expy {
+  font-weight: 700;
+  padding: 50px 0px 0px 3px;
+  color: #0f7c90;
+  font-size: 14px;
+}
+#expy:hover {
+  color: #0c5663;
 }
 #simp {
-  padding: 5px;
+  padding: 5px 0px 20px 0px;
   font-size: 16px;
 }
 .woman {
@@ -405,25 +417,63 @@ One1 ul li:active {
   font-weight: 700;
   cursor: pointer;
 }
-.sub:hover{
+.sub:hover {
   color: #0c5663;
 }
 .art {
   padding: 5px 0px 25px 0px;
   color: #73726c;
 }
-.plore{
-    background: #0f7c90;
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #0f7c90;
-    color: white;
-    width: auto;
-  }
-  .plore:hover {
-    color: white;
-    border: 1px solid #0c5663;
-    background: #0c5663;
-  }
+.plore {
+  background: #0f7c90;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #0f7c90;
+  color: white;
+  width: auto;
+}
+.plore:hover {
+  color: white;
+  border: 1px solid #0c5663;
+  background: #0c5663;
+}
+
+.inst {
+  background-color: #fbfbf8;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 50px 0px 50px 0px;
+}
+.teacher {
+  justify-items: right;
+  margin-left: 20%;
+}
+.teacher img {
+  margin-right: 30px;
+  width: 380px;
+  height: 380px;
+  justify-items: right;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%)
+}
+.info_inst {
+  padding: 10px;
+  margin: 35px 0px 10px 35px;
+  align-items: center;
+  width: 700px;
+  color: #1f1a1a;
+}
+.info_inst > h3 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+  color: #3c3b37;
+}
+#simp_inst {
+  padding: 5px 0px 20px 0px;
+  font-size: 20px;
+  width: 400px;
+  color: #3c3b37;
+}
