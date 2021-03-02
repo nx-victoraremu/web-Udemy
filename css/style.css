@@ -277,7 +277,6 @@ One1 ul li:active {
 }
 .imgs {
   cursor: pointer;
-
 }
 
 .vids .imgs img {
@@ -285,6 +284,10 @@ One1 ul li:active {
   height: auto;
   border-radius: 6px;
   width: 100%;
+  opacity: 0.95;
+}
+.vids .imgs img:hover {
+  opacity: 1;
 }
 .reviews {
   color: #eb8a2f;
@@ -322,3 +325,105 @@ One1 ul li:active {
   border-radius: 3px;
   cursor: pointer;
 }
+.Three3 {
+  margin: 30px 0px 30px 0px;
+  background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg)
+    repeat-x #6e1a52;
+  background-size: auto 120%;
+  background-position: 0 -2.4rem;
+  color: #fff;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0;
+  width: 100%;
+}
+.info_sm {
+  font-size: 26px;
+}
+#simp_sm {
+  font-size: 20px;
+}
+#started {
+  padding: 15px;
+  margin: 15px 0px 10px 0px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vids2 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+}
+#cat {
+  font-size: 24px;
+}
+.tit {
+  color: #000000;
+  padding: 25px;
+}
+
+.imgsNew {
+  border: 1px solid #ececec;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.vids2 .imgsNew img {
+  width: auto;
+  height: auto;
+  width: 100%;
+  opacity: 0.97;
+  border: 1px solid #ececec;
+}
+.vids2 .imgsNew img:hover {
+  opacity: 1;
+}
+
+.tit2 {
+  color: #3c3b37;
+  padding: 10px 0 10px 0px;
+  font-weight: 700;
+}
+#fet {
+  font-size: 24px;
+  padding: 45px 0px 20px 0px;
+}
+.sub {
+  color: #0f7c90;
+  padding: 15px 0px 5px 0px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sub:hover{
+  color: #0c5663;
+}
+.art {
+  padding: 5px 0px 25px 0px;
+  color: #73726c;
+}
+.plore{
+    background: #0f7c90;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #0f7c90;
+    color: white;
+    width: auto;
+  }
+  .plore:hover {
+    color: white;
+    border: 1px solid #0c5663;
+    background: #0c5663;
+  }
