@@ -274,18 +274,17 @@ One1 ul li:active {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1em;
-  border: 1px solid red;
 }
 .imgs {
-  border: 1px solid blue;
   cursor: pointer;
+
 }
 
 .vids .imgs img {
-  border: 1px solid green;
   width: auto;
   height: auto;
   border-radius: 6px;
+  width: 100%;
 }
 .reviews {
   color: #eb8a2f;
@@ -303,7 +302,7 @@ One1 ul li:active {
   padding-top: 2px;
   color: #593d00;
 }
-.seller{
+.seller {
   background-color: #ffe799;
   color: #593d00;
   outline: none;
@@ -313,8 +312,8 @@ One1 ul li:active {
   border-radius: 3px;
   cursor: pointer;
 }
-.hot{
-  background-color:#f99;
+.hot {
+  background-color: #f99;
   color: #593d00;
   outline: none;
   border: none;
