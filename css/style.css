@@ -19,7 +19,6 @@ body {
   color: #593d00;
   text-align: center;
   padding: 15px;
-
 }
 
 nav {
@@ -446,7 +445,7 @@ One1 ul li:active {
   display: flex;
   justify-content: center;
   height: 300px;
-  margin: 50px 0px 50px 0px;
+  margin: 60px 0px 120px 0px;
 }
 .teacher {
   justify-items: right;
@@ -457,7 +456,7 @@ One1 ul li:active {
   width: 380px;
   height: 380px;
   justify-items: right;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%)
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
 }
 .info_inst {
   padding: 10px;
@@ -476,4 +475,56 @@ One1 ul li:active {
   font-size: 20px;
   width: 400px;
   color: #3c3b37;
+  align-items: center;
+  justify-content: center;
+}
+.inst2 {
+  background-color: #003640;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin: 100px 0px 120px 0px;
+}
+.info_inst2 {
+  padding: 10px;
+  margin: 35px 0px 10px 15px;
+  align-items: center;
+  width: 500px;
+  color: #1f1a1a;
+}
+.info_inst2 > h3 {
+  padding: 10px 0px 10px 0px;
+  font-size: 26px;
+  color: #ffffff;
+}
+#simp_inst2 {
+  padding: 5px 0px 20px 0px;
+  font-size: 20px;
+  width: 400px;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+}
+.sponsors {
+  border-top: 1px solid #dcdacb;
+  border-bottom: 1px solid #dcdacb;
+  display: inline-block;
+  padding: 3.2rem;
+  width: 100%;
+}
+.spon_title {
+  color: #1f1a1a;
+  margin-left: 35%;
+  font-size: 24px;
+}
+.logo_item {
+  margin: 1.6rem;
+  display: inline;
+}
+.logo_item img {
+}
+.space {
+  margin-left: 20%;
+  margin-top: 10px;
 }
