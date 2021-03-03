@@ -528,3 +528,69 @@ One1 ul li:active {
   margin-left: 20%;
   margin-top: 10px;
 }
+
+.you {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  border-top: 1px solid #dcdacb;
+  border-bottom: 1px solid #dcdacb;
+  padding: 50px 0px 50px 0px;
+}
+.you_vid {
+  display: grid;
+  justify-items: end;
+  margin-right: 100px;
+
+}
+.you_vid video{
+  outline: none;
+  width: 560px;
+  height: 315px;
+}
+.story {
+  display: flexbox;
+  margin-top: 70px;
+  width: 400px;
+  color: #1f1a1a;
+}
+.story h3{
+  font-size: 40px;
+}
+.story p{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin: 30px 0px 0px 0px;
+  padding: 10px 0px 10px 30px;
+}
+.first_foot{
+
+}
+.second_foot{
+ display: grid;
+ justify-content: end;
+ margin: 0px 50px 0px 0px;
+ font-size: 20px;
+ text-shadow: 0px 0px 5px 2px;
+}
+.toes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.country{
+  border: 1px solid #0c5663;
+  color: #0c5663;
+  padding: 0px;
+}
+.country select{
+  font-size: 18px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px 3px;
+}
+select option{
+  padding: 10px;
+}
