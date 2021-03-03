@@ -9,7 +9,6 @@ body {
   font-family: sf pro text, -apple-system, BlinkMacSystemFont, Roboto, segoe ui,
     Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji,
     segoe ui symbol;
-  display: grid;
   overflow-y: auto;
 }
 
@@ -25,6 +24,7 @@ nav {
   background: white;
   height: 75px;
   width: 100%;
+  position: sticky;
 }
 nav ul {
   float: right;
@@ -50,6 +50,7 @@ nav ul li a:active {
 #big-container {
   z-index: 5;
   position: relative;
+
 }
 #big-container .nav-bar {
   position: sticky;
@@ -394,11 +395,11 @@ One1 ul li:active {
   width: auto;
   height: auto;
   width: 100%;
-  opacity: 0.97;
+  opacity: 1;
   border: 1px solid #ececec;
 }
 .vids2 .imgsNew img:hover {
-  opacity: 1;
+  filter: contrast(1.2);
 }
 
 .tit2 {
