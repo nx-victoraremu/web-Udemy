@@ -82,8 +82,18 @@
     .vids {
         margin-top: 20px;
         display: grid;
-        grid-template-columns:  1fr;
+        grid-template-columns:  1fr 1fr;
         gap: 1em;
+      }
+      .imgsNew{
+        display: grid;
+        grid-template-columns: 1fr ;
+      }
+      .teacher{
+          display:none;
+      }
+      .promo{
+          display: none;
       }
       .sponsors{
 
