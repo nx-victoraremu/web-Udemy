@@ -71,6 +71,29 @@
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  .search-txt {
+    width: auto;
+    display: none;
+  }
+  .search-box {
+    display: none;
+  }
+
+  .info {
+    height: 120px;
+    top: 30%;
+    border-radius: 5px;
+  }
+  .info > h1 {
+    font-size: 18px;
+  }
+  .searchbtn {
+    display: none;
+  }
+}
+
+
 @media only screen and (min-width: 374px) and (max-width: 500px) {
 
   .vids {
