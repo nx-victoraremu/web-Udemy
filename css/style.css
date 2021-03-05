@@ -12,6 +12,12 @@ body {
   overflow-y: auto;
 }
 
+.flex_contain{
+  display:flexbox;
+  align-content: center;
+  justify-content: center;
+}
+
 .countdown {
   width: 100%;
   background-color: #ffe799;
@@ -50,6 +56,7 @@ nav ul li a:active {
 #big-container {
   z-index: 5;
   position: relative;
+
 
 }
 #big-container .nav-bar {
@@ -120,6 +127,7 @@ nav ul li a:active {
   width: 98.8vw;
   align-items: center;
   justify-content: center;
+
 }
 .cover-page {
   width: 86%;

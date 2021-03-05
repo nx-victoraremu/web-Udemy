@@ -31,7 +31,7 @@
 }
 @media only screen and (min-width: 1202px) and (max-width: 1238px) {
   .search-txt {
-    width: 370px;
+    width: 350px;
   }
 
   .info {
@@ -69,11 +69,17 @@
   .searchbtn {
     display: none;
   }
+  .vids {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
   .search-txt {
-    width: auto;
+
     display: none;
   }
   .search-box {
@@ -82,7 +88,7 @@
 
   .info {
     height: 120px;
-    top: 20%;
+    top: 10%;
     border-radius: 5px;
   }
   .info > h1 {
@@ -91,10 +97,19 @@
   .searchbtn {
     display: none;
   }
+  .nav-bar ul li{
+    display: none;
+}
+  .vids {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
 }
 
 
-@media only screen and (min-width: 374px) and (max-width: 500px) {
+@media only screen and (min-width: 374px) and (max-width: 600px) {
 
   .vids {
     margin-top: 20px;
